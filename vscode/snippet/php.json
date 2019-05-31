@@ -1,0 +1,17 @@
+{
+	"fast echo $": {
+		"prefix": "d",
+		"body": [
+			"$"
+		],
+		"description": "fast echo $"
+	},
+	"fast echo $this": {
+		"prefix": "dc",
+		"body": [
+			"$$this-> $1;"
+		],
+		"description": "fast echo $this"
+	}
+
+}
